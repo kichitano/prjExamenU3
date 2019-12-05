@@ -42,13 +42,13 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
+    private String TAG;
     public static String OPCION_ELEGIDA = "";
     private RecyclerView mTemaLista;
     private DatabaseReference mDatabase;
     List<modeloHecho> temas;
     Adapter adapter;
     FirebaseAuth mAuth = FirebaseAuth.getInstance();
-    private String TAG;
     int PERMISSION_ALL = 1;
     String[] PERMISSIONS = {
             android.Manifest.permission.READ_EXTERNAL_STORAGE,
