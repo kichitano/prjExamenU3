@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "487642313495",
+    "firebase_url": "https://pruebaunidad3moviles.firebaseio.com",
+    "project_id": "pruebaunidad3moviles",
+    "storage_bucket": "pruebaunidad3moviles.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:487642313495:android:0c1a139ee4da8451e5bd52",
+        "android_client_info": {
+          "package_name": "com.example.examenunidad3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "487642313495-fd5tlhvhvd9imli1vsh6vo42gb24p0do.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.examenunidad3",
+            "certificate_hash": "295ad721ff274c253ec5a0fee3d4ba67c18582ff"
+          }
+        },
+        {
+          "client_id": "487642313495-d254e4cpduvt42cfthqdi6b9bscpsmrs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMLy7Zol-UgaJt0jEdD-64IzveRko5ybU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "487642313495-d254e4cpduvt42cfthqdi6b9bscpsmrs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

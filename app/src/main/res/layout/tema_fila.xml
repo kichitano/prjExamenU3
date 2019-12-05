@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    app:cardCornerRadius="12dp"
+    android:layout_margin="7dp"
+    android:elevation="90dp"
+    android:id="@+id/tajetaTema">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:orientation="vertical"
+        android:background="#121111">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="155dp"
+            android:scaleType="centerCrop"
+            android:id="@+id/tema_imagen"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tema_titulo"
+            android:text="@string/app_name"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/tema_descripcion"
+            android:text="@string/app_name"
+            android:textSize="14sp"
+            android:textColor="#FFFFFF"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">examenUnidad3</string>
+    <string name="action_settings">Settings</string>
+    <string name="noneContentIMG" />
+    <string name="tituloTema">Agregue un titulo aquí</string>
+    <string name="descripcionTema">Agregue una descripción</string>
+    <string name="hechosRelevantesTema">Hechos relevantes</string>
+    <string name="primerHecho">Agregar primer hecho relevante aquí</string>
+    <string name="segundoHecho">Agregar segundo hecho relevante aquí</string>
+    <string name="agregarHechos">+ Agregar hechos relevantes</string>
+    <string name="agregarTema">+ AGREGAR TEMA</string>
+</resources>
